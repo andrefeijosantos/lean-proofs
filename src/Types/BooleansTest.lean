@@ -9,6 +9,13 @@ open Booleans
 #check Boolean.False
 
 
+-- Checking Boolean equality
+#eval Boolean.True == Boolean.True
+#eval Boolean.False == Boolean.False
+
+#eval Boolean.False == Boolean.True
+#eval Boolean.True == Boolean.False
+
 -- Test neg
 #eval neg Boolean.True
 #eval neg Boolean.False

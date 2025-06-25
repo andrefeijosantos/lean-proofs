@@ -15,7 +15,7 @@ namespace Booleans
 inductive Boolean where
   | True
   | False
-  deriving Repr
+  deriving Repr, BEq
 
 /-***********************************************************+
  *                     Basic Boolean Operators               *
